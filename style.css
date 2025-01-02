@@ -1,0 +1,280 @@
+
+#header{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  padding: 80px;
+  background: #e3e6f3;
+ z-index: 999;
+ position: sticky;
+ top: 0;
+ left: 0;
+ height: 20px;
+}
+
+
+#header img{width: 20vh;
+  height:auto ;
+  border-radius: 200px;
+  }
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #navbar li{ 
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+  }
+
+  #navbar li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a1a;
+    transition: 0.3s ease-in-out;
+  }
+
+  #navbar li a:hover{
+    color: blue;
+    color:rgb(185, 185, 175);
+    
+  }
+
+  #hero{
+    background:#eb9797;
+    align-items: center;
+    padding-top: 50px ;
+    padding-bottom: ;
+    height: 500px;
+    width: auto;
+    }
+
+  #hero h4{
+    color: chocolate;
+    text-align: center;
+font-weight: 700;
+font-size: 26px;
+  }  
+
+  #hero h2{
+    color: coral;
+    text-align: center;
+    font-weight: 700;
+    font-size: 26px;
+  }
+  #hero p{
+    color: floralwhite;
+    text-align: center;
+    font-size: larger;
+  }
+  
+ 
+  
+
+.hire-me-button {
+    padding: 15px 30px;
+    background-color: #726d41;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    margin-left: 570px;
+  }
+
+.hire-me-button:hover {
+    background-color: #0056b3;
+}
+
+.about__me{
+  text-align: center;
+  font-size: 18px;
+  padding-top: 50px;
+  background: url(Thumbnails/19.jpg);
+  height: 570px;
+  background-size: 1000px;
+}
+
+.about__me h4{
+  color: rgb(59, 177, 231);
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.about__me p{
+  color: aliceblue;
+  font-weight: 600;
+  font-size: large;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+  #button1{
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    color: rgb(208, 208, 228);
+    border-radius: 8px;
+   height: 30px;
+    border:none;
+    background-color: darkolivegreen;
+    margin-left: 570px;
+    margin-right: 5px;
+  }
+  #button2{
+    text-decoration: none;
+    font-weight:600 ;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    height: 30vh;
+    color: rgb(208, 208, 228);
+    border-radius: 8px;
+    border:none;
+    background-color: darkolivegreen;
+    
+  }
+
+ .services{
+text-align: center;
+font-size: 24px;
+font-weight: 900;
+color: rgb(126, 103, 179);
+background-origin: padding-box;
+box-shadow: #726d41;
+padding-top: 50px;
+ }
+
+#service{
+  background: url(Thumbnails/14.jpg);
+  background-size: 1000px;
+}
+
+  #Services__I{
+    padding-top: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  #Services__I .custom{
+    padding-right: 50px;
+    font-family: cursive;
+    color: cadetblue;
+    font-weight: 200;
+  }
+  #Services__I .webhosting{
+    padding-right: 50px;
+    font-family: cursive;
+    color: cadetblue;
+    font-weight: 200;
+  }
+
+  #Services__I .custom h1{
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: dodgerblue;
+  }
+
+#Services__I .webhosting h2{
+  font-weight: 200;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: dodgerblue;
+
+}
+
+  .footer{
+    padding-top: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(13, 69, 70);
+  }
+
+  #background{
+    height: 1000px;
+    background: url(Thumbnails/telephone-4440525_1280.jpg);
+    background-size: cover;
+  }
+  #Contact{
+
+  }
+
+
+  #Contact .user-input{
+    width: 50vh;
+    height: 50vh;
+    margin-top: 10px;
+    padding-top: 150px;
+    padding-left: 500px;
+    align-items: center;
+  }
+  #navlinks{
+    font-size: 50px;
+    font-weight: 900;
+    text-align: right;
+    padding-right: 90px;
+    padding-top: 10px;
+    justify-content: space-between;
+    transition: 0.3s ease;
+  }
+#navlinks a{
+  color: #726d41;
+}
+  #navlinks a:hover{
+    background-color: chartreuse;
+    border-radius: 18px;
+  }
+  .user-input input{
+    height: 30px;
+    width: 200px;
+    background-color: #1a1a1a; 
+    color: antiquewhite; 
+    text-align: center;
+    border-radius: 10px;
+   transition: 0.3s ease;
+}
+.user-input input:hover{
+  background-color: crimson;
+}
+
+.text button{
+  color: gray;
+}
+
+textarea{ 
+  width:32vh;
+  padding-bottom: 60px;
+  height: 30px;
+  background-color: #1a1a1a; 
+  color: antiquewhite; 
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+}
+
+textarea:hover{
+ background: #726d41; 
+ color: #fff;
+}
+
+.submit{
+  height: 30px;
+  background-color: #1a1a1a; 
+  color: antiquewhite; 
+  border-radius: 10px;
+  width: 32vh;
+}
+.submit:hover{
+  background: #726d41;
+}
+
+@media(max-width: 700px;){
+  #header{width: auto;}
+}
